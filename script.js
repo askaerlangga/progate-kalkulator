@@ -104,7 +104,6 @@ const percentage = document.querySelector('.percentage');
 
 percentage.addEventListener('click', () => {
     inputPercentage();
-    updateScreen(currentNumber);
 });
 
 const inputPercentage = () => {
